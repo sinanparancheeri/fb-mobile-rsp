@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Facebook Login Clone</title>
+  <style>
+   
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      background-color: #f0f2f5;
+      font-family: Helvetica, Arial, sans-serif;
+      color: #1c1e21;
+    }
+    
+ 
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+  
+    .left-section {
+      flex: 1;
+      padding: 20px;
+    }
+    .left-section h1 {
+      font-size: 50px;
+      color: #1877f2;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+    .left-section p {
+      font-size: 24px;
+      line-height: 1.4;
+    }
+    
+    
+    .right-section {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    
+    .login-box {
+      background-color: #fff;
+      padding: 20px 25px 30px;
+      width: 100%;
+      max-width: 400px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    .login-box form {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .login-box input {
+      padding: 14px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+    
+    .login-box button.login {
+      background-color: #1877f2;
+      color: #fff;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .login-box button.login:hover {
+      background-color: #166fe5;
+    }
+    
+    .forgot-password {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    
+    .forgot-password a {
+      color: #1877f2;
+      text-decoration: none;
+    }
+    
+    .separator {
+      height: 1px;
+      background-color: #ddd;
+      margin: 20px 0;
+    }
+    
+    .create-account {
+      background-color: #42b72a;
+      color: #fff;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      font-size: 17px;
+      font-weight: bold;
+      cursor: pointer;
+      width: 100%;
+      transition: background-color 0.3s ease;
+    }
+    
+    .create-account:hover {
+      background-color: #36a420;
+    }
+    
+  
+   @media only screen and (max-width:400px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 150px;
+    }
+    .left-section{
+        display: none;
+    }
+    .right-section{
+        margin: auto;
+        width: 100vh;
+    }
+   }
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+    <div class="left-section">
+      <h1>facebook</h1>
+      <p>
+        Connect with friends and the world around you on Facebook.
+      </p>
+    </div>
+    
+ 
+    <div class="right-section">
+      <div class="login-box">
+        <form>
+          <input type="text" placeholder="Email or Phone Number" required />
+          <input type="password" placeholder="Password" required />
+          <button type="submit" class="login">Log In</button>
+        </form>
+        <div class="forgot-password">
+          <a href="#">Forgot Password?</a>
+        </div>
+        <div class="separator"></div>
+        <button class="create-account">Create New Account</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+</body>
+</html>
